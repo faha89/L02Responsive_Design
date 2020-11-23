@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "de.hsfl.fh.l02responsive_design"
+        applicationId "de.hsf.jffh.l02responsive_design"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1

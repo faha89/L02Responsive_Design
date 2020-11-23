@@ -1,4 +1,4 @@
-package de.hsf.fh.l02responsive_design;
+package de.hsf.jffh.l02responsive_design;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.hsfl.fh.l02responsive_design", appContext.getPackageName());
+        assertEquals("de.hsf.fh.l02responsive_design", appContext.getPackageName());
     }
 }

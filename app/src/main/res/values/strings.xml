@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">L02Responsive_Design</string>
     <string name="time_remaining">0s</string>
-    <string name="button_Start">Start</string>
-    <string name="button_Stop">Stop</string>
+    <string name="button_Start">Start Timer</string>
+    <string name="button_Stop">Stop Timer</string>
+    <string name="button_Alarm">Stop Alarm</string>
 </resources>

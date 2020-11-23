@@ -1,4 +1,4 @@
-package de.hsf.fh.l02responsive_design;
+package de.hsf.jffh.l02responsive_design;
 
 import org.junit.Test;
 
