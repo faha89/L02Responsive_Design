@@ -93,20 +93,22 @@ public class MainActivity extends AppCompatActivity {
                         //Disbabled die Zeiteingabe während der Timer läuft
                         editTextStartzeit.setEnabled(false);
                         buttonStart.setText(R.string.button_Stop);
-                        Log.d(TAG, "buttonStart(): START ");
+                        Log.d(TAG, "buttonStart(): START TIMER");
                         //Erstellt Mediaplayer beim drücken des Start Buttons
+                        Log.d(TAG, "buttonStart(): Create MediaPlayer with alarm sound");
                         mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.alarm_1);
                         mediaPlayer.setLooping(true);
                     } else if (getResources().getString(R.string.button_Stop).equals(buttonStart.getText())) {
                         countDownTimer.cancel();
                         buttonStart.setText(R.string.button_Start);
                         editTextStartzeit.setEnabled(true);
-                        Log.d(TAG, "buttonStart(): STOP ");
+                        Log.d(TAG, "buttonStart(): STOP TIMER ");
                     } else if (getResources().getString(R.string.button_Alarm).equals(buttonStart.getText())) {
                         buttonStart.setText(R.string.button_Start);
                         Log.d(TAG, "buttonStart(): STOP ALARM ");
                         editTextStartzeit.setEnabled(true);
                         if (mediaPlayer!= null) {
+                            Log.d(TAG, "buttonStart(): MediaPlayer stop(), reset(), release()");
                             mediaPlayer.stop();
                             //Löscht ausstehende Befehle an Mediaplayer
                             mediaPlayer.reset();
