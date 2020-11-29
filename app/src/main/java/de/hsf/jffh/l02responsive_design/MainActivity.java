@@ -1,8 +1,8 @@
 /*
 Fabian Hansen
 Jens Foelz
-L02_Responsive_Design
-Abgabe: 9.11.2020
+L03_GUI_Timer
+Abgabe: 23.11.2020
 Funktion: Countdown Timer, Eieruhr
  */
 
